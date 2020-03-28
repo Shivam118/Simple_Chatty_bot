@@ -23,12 +23,13 @@ def guess_age():
 
 def count():
     print('Now I will prove to you that I can count to any number you want.')
-
-    num = int(input())
-    curr = 0
-    while curr <= num:
-        print(curr, '!')
-        curr = curr + 1
+    choice=int(input('If you want me to count, Just press 1.'))
+    if choice == 1
+        num = int(input())
+        curr = 0
+        while curr <= num:
+            print(curr, '!')
+            curr = curr + 1
 
 
 def test():
