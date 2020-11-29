@@ -18,13 +18,14 @@ def guess_age():
     rem7 = int(input())
     age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
 
-    print("Your age is " + str(age) + "; that's a good time to start programming!")
+    print("Your age is " + str(age) +
+          "; that's a good time to start programming!")
 
 
 def count():
     print('Now I will prove to you that I can count to any number you want.')
-    choice=int(input('If you want me to count, Just press 1.'))
-    if choice == 1
+    choice = int(input('If you want me to count, Just press 1.'))
+    if choice == 1:
         num = int(input())
         curr = 0
         while curr <= num:
@@ -40,15 +41,15 @@ def test():
     print('3. To determine the execution time of a program.')
     print('4. To interrupt the execution of a program.')
     answer = int(input())
-    while answer!=2:
+    while answer != 2:
         print('Please, try again.')
-        answer = int(input())    
+        answer = int(input())
     print('Completed, have a nice day!')
 
 
 def end():
     print('Congratulations, have a nice day!')
-    pause=input('PRESS ENTER TO EXIT')
+    pause = input('PRESS ENTER TO EXIT')
 
 
 greet('Aid', '2020')  # change it as you need
